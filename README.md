@@ -57,7 +57,7 @@ $ terraform destroy
 Configure these parameters in `pagerduty.auto.tfvars`.
 
 | Parameter | Description | Default|
-| --- | --- |
+| --- | --- | --- |
 | sumo_access_id            | [Sumo Logic Access ID](https://help.sumologic.com/Manage/Security/Access-Keys)  |       |
 | sumo_access_key           | [Sumo Logic Access Key](https://help.sumologic.com/Manage/Security/Access-Keys) |       |
 | deployment                | [Sumo Logic Deployment](https://help.sumologic.com/APIs/General-API-Information/Sumo-Logic-Endpoints-and-Firewall-Security)                                                                   | us1   |
