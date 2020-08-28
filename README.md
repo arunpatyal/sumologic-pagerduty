@@ -6,7 +6,7 @@ The Terraform template performs following actions:
 
 * Creation of Sumo Logic collection resources. (Collector, Source)
 * Configuration of collection mechanism in Pagerduty.
-* Configuration of connections in Sumo Logic to send events from Sumo Logic to other systems.
+* Configuration of connections in Sumo Logic to send events from Sumo Logic to Pagerduty.
 
 The Terraform template requires a set of parameters to be configured as defined later in this document.
 
@@ -33,9 +33,9 @@ Follow below instructions to set up the Pagerduty Solution using the Terraform t
 3. Initialize the Terraform working directory by running `terraform init`. This will install the required Terraform providers i.e. Sumo Logic Terraform Provider and Pagerduty Terraform Provider.
 4. Update the placeholder values in pagerduty.auto.tfvars so they correspond with your Sumo Logic and Pagerduty environments. See the list of input parameters below.
 
-### Step 2: Deploy SDO Solution
+### Step 2: Deploy Pagerduty Solution
 
-To deploy Sumo Logic - SDO Solution, navigate to the directory sumologic-solution-templates/software-development-observability-terraform and execute the below commands:
+To deploy Sumo Logic - Pagerduty Solution, navigate to the directory and execute the below commands:
 
 ```
 $ terraform plan
@@ -44,7 +44,7 @@ $ terraform apply
 
 ### Uninstalling the solution
 
-To uninstall the solution, navigate to the directory sumologic-solution-templates/software-development-observability-terraform and execute the below command:
+To uninstall the solution, navigate to the directory and execute the below command:
 
 ```
 $ terraform destroy
